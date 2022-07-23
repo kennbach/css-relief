@@ -42,7 +42,11 @@ a {
 
 /* Set cursor clickable elements */
 a,
-button {
+button,
+input[type="submit"],
+input[type="checkbox"],
+input[type="radio"],
+select {
   cursor: pointer;
 }
 
