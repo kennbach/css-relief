@@ -50,6 +50,11 @@ select {
   cursor: pointer;
 }
 
+/* Set button element font to inherit */
+button {
+  font-family: inherit;
+}
+
 /* Remove list styles on elements with a list role */
 ul[role="list"],
 ol[role="list"] {
