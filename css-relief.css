@@ -43,9 +43,9 @@ a {
 /* Set cursor clickable elements */
 a,
 button,
-input[type='submit'],
-input[type='checkbox'],
-input[type='radio'],
+input[type="submit"],
+input[type="checkbox"],
+input[type="radio"],
 select {
   cursor: pointer;
 }
@@ -55,9 +55,9 @@ button {
   font-family: inherit;
 }
 
-/* Remove list styles on elements with a list role */
-ul[role='list'],
-ol[role='list'] {
+/* Remove list styles */
+ul,
+ol {
   list-style: none;
 }
 
@@ -77,7 +77,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
